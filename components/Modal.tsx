@@ -1,0 +1,17 @@
+export const Modal = () => {
+    return (
+<div>
+<label htmlFor="my-modal" className="btn">Modal</label>
+
+
+<input type="checkbox" id="my-modal" className="modal-toggle" />
+<div className="modal">
+  <div className="modal-box">
+    <div className="modal-action">
+      <label htmlFor="my-modal" className="btn">X</label>
+    </div>
+  </div>
+</div>
+</div>
+);
+};
