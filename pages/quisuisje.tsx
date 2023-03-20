@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
           <Bidule titre="Bonjour"/>
-           <h2>CHEIKH</h2>
+           <h2>CHEIKH1</h2>
            <Link href="/"> index </Link>
            <h2>BTS SIO</h2>
 
