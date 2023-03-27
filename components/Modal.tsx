@@ -4,7 +4,7 @@ export const Modal = () => {
 <label htmlFor="my-modal" className="btn">Modal</label>
 
 
-<input type="checkbox" id="my-modal" className="modal-toggle" />
+
 <div className="modal">
   <div className="modal-box">
     <div className="modal-action">
