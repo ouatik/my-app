@@ -1,10 +1,10 @@
-import { Button, PhotoDisplay } from "@/components/Button";
+import { Pokemon } from "@/components/Pokemon";
 
 
 
 
 export default function Home() {
-    return <PhotoDisplay/>
+    return <div><Pokemon/><Pokemon/></div>
     
   
   
