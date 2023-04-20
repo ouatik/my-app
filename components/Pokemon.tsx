@@ -1,12 +1,12 @@
 import { useState } from 'react';
 
-export function Pokemon() {
+type PokemonProps = {idVariable:string}
+
+export const Pokemon = ({idVariable}: PokemonProps) => { 
   const [currentPhoto, setCurrentPhoto] = useState(0);
   const photos = [
-    'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png',
-    'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/26.png ',
-    'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png',
-    'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/25.png ',
+    `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${idVariable}.png`,
+    `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/${idVariable}.png`,
 
   ];
   
